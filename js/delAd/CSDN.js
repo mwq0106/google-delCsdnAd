@@ -1,7 +1,7 @@
 $(document).ready(function (){
 	//console.log("我是去除CSDN广告的");
 	var currUrl = window.location.href;
-	
+	$(".pulllog-box").hide();
 	//CSDN博客
 	if(currUrl.indexOf("blog.csdn.net") > 0){
 		$("iframe").each(function (){
@@ -18,5 +18,4 @@ $(document).ready(function (){
 		$(".ad_top").remove();
 		$(".J_adv").remove();
 	}
-	$(".tool-box").hide();
 });

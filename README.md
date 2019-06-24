@@ -1,5 +1,5 @@
 # google-delCsdnAd
-谷歌去除CSDN广告与文章底部标签插件 
+谷歌去除CSDN广告插件 
 
 使用插件:直接下载google-util-delCsdnAd.crx安装
 

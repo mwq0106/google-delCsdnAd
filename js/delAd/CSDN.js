@@ -2,6 +2,8 @@ $(document).ready(function (){
 	//console.log("我是去除CSDN广告的");
 	var currUrl = window.location.href;
 	$(".pulllog-box").hide();
+	//$(".tool-box").hide();
+	$("#niming").hide();
 	//CSDN博客
 	if(currUrl.indexOf("blog.csdn.net") > 0){
 		$("iframe").each(function (){
